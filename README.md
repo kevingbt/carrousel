@@ -1,5 +1,6 @@
 # carrousel
 carrousel sans bibliothèque
+
 HTML :
 La classe "carrousel-container" englobe entièrement le carrousel.
 Les boutons "backward" et "forward" sont les flèches permettant de changer ce qui est affiché ( possibilité de remplacer les boutons par autre chose, tant qu'ils ont les classes "backward" et "forward".
