@@ -1,0 +1,33 @@
+.carrousel-container{
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.carrousel{
+  overflow: hidden;
+}
+
+.carrousel-contenu {
+  width: 100%;
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  flex: 0 0 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.backward, .forward {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
